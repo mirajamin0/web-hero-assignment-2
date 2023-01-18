@@ -91,21 +91,20 @@ h1.h1-h {
 
 /* Features Section - start  */
 
-section.feature-container {
+section.features-container {
     display: flex;
     width: 75%;
-    padding: 80px 30px;
     justify-content: center;
     align-items: center;
     gap: 50px;
-
+    padding: 80px 30px;
 }
-.feature-images {
+.features-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-h2.feature-title {
+h2.features-title {
     color: #727272;
     font-size: 48px;
     font-weight: 500;
@@ -118,7 +117,7 @@ span.color-org {
     color: #FF900E;
     font-weight: 700;
 }
-.feature-text p.description {
+.features-text p.description {
     width: 80%;
     margin: 30px 0 0;
 }
